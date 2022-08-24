@@ -7,4 +7,6 @@
     <string name="title_market">Market</string>
     <string name="title_converter">Converter</string>
     <string name="title_news">News</string>
+
+     <string name="content_description_fab">Button for adding a new alert</string>
 </resources>

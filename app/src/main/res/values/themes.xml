@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
     <style name="Theme.CryptoAlert" parent="Theme.Material3.Light">
         <item name="colorPrimary">@color/md_theme_light_primary</item>
@@ -31,4 +31,9 @@
     </style>
 
 
+    <style name="floating_action_button">
+        <item name="android:layout_marginEnd">@dimen/margin_end_fab</item>
+        <item name="android:layout_marginBottom">@dimen/margin_bottom_fab</item>
+        <item name="android:layout_gravity">end|bottom</item>
+    </style>
 </resources>
