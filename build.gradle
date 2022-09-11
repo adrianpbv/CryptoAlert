@@ -15,7 +15,10 @@ ext{
     core_ktx_version = "1.8.0"
     constraint_layout_version = "2.1.4"
 
-    google_material_version = "1.6.1"
+    google_material_version = "1.8.0-alpha01"
+    ripple_wrapper_version = "1.0.2"
+
+    skydove_whatif_version = "1.1.1"
 
     legacy_support_v4 = "1.0.0"
 

@@ -30,7 +30,7 @@ android {
         jvmTarget = '1.8'
     }
     buildFeatures {
-        viewBinding true
+        dataBinding true
     }
 }
 
@@ -45,6 +45,11 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$arch_lifecycle_version"
     implementation "androidx.navigation:navigation-fragment-ktx:$arch_lifecycle_version"
     implementation "androidx.navigation:navigation-ui-ktx:$arch_lifecycle_version"
+
+    implementation "com.balysv:material-ripple:$ripple_wrapper_version"
+
+
+    implementation "com.github.skydoves:whatif:$skydove_whatif_version"
 
     implementation "androidx.legacy:legacy-support-v4:$legacy_support_v4"
 

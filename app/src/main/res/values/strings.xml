@@ -9,4 +9,10 @@
     <string name="title_news">News</string>
 
      <string name="content_description_fab">Button for adding a new alert</string>
+    <string name="currency_usd">USD</string>
+    <string name="currency_btc">BTC</string>
+    <string name="every_day_string">Every Day</string>
+    <string name="time_example_string">12:30</string>
+    <string name="testsss">fdfdg</string>
+    <string name="conversion_example_string">1 BTC = 1 USD</string>
 </resources>

@@ -1,5 +1,7 @@
 
 <resources>
+
+<!--    Theme colors    -->
     <color name="seed">#2196F3</color>
     <color name="md_theme_light_primary">#0061A4</color>
     <color name="md_theme_light_onPrimary">#FFFFFF</color>
@@ -59,4 +61,17 @@
     <color name="md_theme_dark_shadow">#000000</color>
     <color name="md_theme_dark_surfaceTint">#9ECAFF</color>
     <color name="md_theme_dark_surfaceTintColor">#9ECAFF</color>
+
+<!--    General uses color palette-->
+    <color name="grey_3">#f7f7f7</color>
+    <color name="grey_5">#f2f2f2</color>
+    <color name="grey_10">#e6e6e6</color>
+    <color name="grey_20">#cccccc</color>
+    <color name="grey_40">#999999</color>
+    <color name="grey_60">#666666</color>
+    <color name="grey_80">#37474F</color>
+    <color name="grey_90">#263238</color>
+
+    <color name="overlay_dark_10">#1A000000</color>
+    <color name="overlay_dark_5">#0D000000</color>
 </resources>
