@@ -2,6 +2,7 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-kapt'
+    id 'dagger.hilt.android.plugin'
 }
 
 android {
@@ -33,6 +34,9 @@ android {
     buildFeatures {
         dataBinding true
     }
+    kapt{
+        correctErrorTypes true
+    }
 }
 
 dependencies {
@@ -47,6 +51,11 @@ dependencies {
     implementation "androidx.navigation:navigation-fragment-ktx:$arch_lifecycle_version"
     implementation "androidx.navigation:navigation-ui-ktx:$arch_lifecycle_version"
 
+    // Dependency Injection
+    implementation "com.google.dagger:hilt-android:$hilt_version"
+    kapt "com.google.dagger:hilt-android-compiler:$hilt_version"
+
+    // Ripple effects
     implementation "com.balysv:material-ripple:$ripple_wrapper_version"
 
 
