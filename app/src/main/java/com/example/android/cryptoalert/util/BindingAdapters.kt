@@ -2,7 +2,7 @@ package com.example.android.cryptoalert.util
 
 import androidx.databinding.BindingAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.example.android.cryptoalert.ui.adapters.BaseRecyclerViewAdapter
+import com.example.android.cryptoalert.ui.base.BaseRecyclerViewAdapter
 
 object BindingAdapters {
 

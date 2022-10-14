@@ -1,4 +1,4 @@
-package com.example.android.cryptoalert.ui.adapters
+package com.example.android.cryptoalert.ui.base
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

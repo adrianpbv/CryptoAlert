@@ -1,7 +1,6 @@
-package com.example.android.cryptoalert.ui.adapters
+package com.example.android.cryptoalert.ui.base
 
 import androidx.databinding.ViewDataBinding
-import androidx.databinding.library.baseAdapters.BR
 import androidx.recyclerview.widget.RecyclerView
 
 /**
